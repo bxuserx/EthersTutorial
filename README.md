@@ -1,8 +1,10 @@
 # Simple Examples using Ethers.js in node/javascript
 
 Setup: 
+
+Create a .env file, and add your JSONRPC from alchemy or infura with the variable `MAINNET_RPC_URL`
 ```
-$ node whateverscript.js
+$ node scripts/whateverscript.js
 ```
 
 ## Resources:
