@@ -6,11 +6,11 @@
 
 // Importing required libraries.
 const { ethers } = require("ethers");   // Importing the ethers library
-require('dotenv').config()              // dotenv library allows useage of system variables defined in .profile / .env
+require('dotenv').config()              // dotenv library allows useage of system variables defined in .env
 
 // Setting up an asynchronous function.
 async function mainProviders() {
-    const mainnetURL = process.env.MAINNET_RPC_URL;                     // Pulling the environment variable set in .profile
+    const mainnetURL = process.env.MAINNET_RPC_URL;                     // Pulling the environment variable set in .env
     const provider = new ethers.providers.JsonRpcProvider(mainnetURL);  // Provider instance. Connecting with infura.
 
 
