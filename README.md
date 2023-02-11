@@ -13,8 +13,7 @@ $ node scripts/whateverscript.js
 [Faucets](https://faucets.chain.link/)
 
 [Ether.js](https://docs.ethers.io/v5/)
+
 [Hardhat](https://hardhat.org/)
+
 [Remix](remix.ethereum.org)
-
-Open the scripts
-
